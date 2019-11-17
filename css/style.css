@@ -338,14 +338,14 @@ strong {
 .hero {
   height: calc(100vh);
   width: 100vw;
-  background: url("./images/hero-bg-mobile.png") no-repeat center/cover;
+  background: url("../images/hero-bg-mobile.png") no-repeat center/cover;
   /*background: url('/images/hero-bg-mobile.png') no-repeat center/cover;*/
   /* will need to update for prod */
   position: relative; }
   @media only screen and (min-width: 1024px) {
     .hero {
       height: 670px;
-      background: url("./images/hero-bg.png") no-repeat center/cover;
+      background: url("../images/hero-bg.png") no-repeat center/cover;
       /*background: url('/images/hero-bg.png') no-repeat center/cover;*/
       /* will need to update for prod */ } }
   @media only screen and (min-width: 1440px) {
@@ -822,10 +822,10 @@ strong {
 .section.connect {
   padding: 55px 25px 50px;
   text-align: center;
-  background: url("./images/contact-bg-mobile.png") no-repeat center/cover; }
+  background: url("../images/contact-bg-mobile.png") no-repeat center/cover; }
   @media only screen and (min-width: 1024px) {
     .section.connect {
-      background: url("./images/contact-bg.png") no-repeat center/cover;
+      background: url("../images/contact-bg.png") no-repeat center/cover;
       height: calc(100vh - 130px);
       padding: 0;
       position: relative; } }
